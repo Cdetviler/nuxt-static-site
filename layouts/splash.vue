@@ -6,22 +6,16 @@
   <main class="min-h-screen">
     <nuxt/>
   </main>
-  <Footer />
 </div>
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue'
 
-export default {
-  components: {
-    Footer
-  }
-}
 </script>
 
 
-<style>
-
+<style scoped>
+  main {
+    background-image: url("/daniel-mccullough-1920x1080.jpg");
+  }
 </style>
-
