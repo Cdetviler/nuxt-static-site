@@ -1,18 +1,22 @@
 <template>
 <div>
-  <section class="container">
-    <div>
-      <h2> Home </h2>
-      <h2> <nuxt-link to="/about"> About </nuxt-link> </h2>
-    </div>
-  </section>
+  <div>
+    <HeroText
+      text="Charlie Detviler"
+      subText="Front End Developer"
+      textSize="6xl"
+      subTextSize="2xl"
+    />
+  </div>
 </div>
 </template>
 
 <script>
+import HeroText from '~/components/HeroText.vue';
 
 export default {
   components: {
+    HeroText
   },
   layout: 'splash'
 }
