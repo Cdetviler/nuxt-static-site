@@ -3,8 +3,8 @@
     <PageSection>
       <Card width="xl">
         <CardText 
-          fontSize="4xl"
-          :classes="['mb-3', 'tracking-widest', 'uppercase']"
+          fontSize="5xl"
+          :classes="['mb-3', 'tracking-widest', 'uppercase', 'font-light']"
         >
           About Charlie
         </CardText>
@@ -31,6 +31,7 @@
     <PageSection inverted>
       <SectionHeader
         :classes="['tracking-widest', 'uppercase', 'mb-6']"
+        fontSize="5xl"
         color="inverted"
       >
         Experience

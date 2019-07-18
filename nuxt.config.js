@@ -36,7 +36,13 @@ module.exports = {
     }
   },
   devModules: [
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+    'nuxt-webfontloader',
+  ],
+   webfontloader: {
+    google: {
+      families: ['Lato:100,400,700'] //Loads Lato font with weights 400 and 700
+    }
+  },
 }
 

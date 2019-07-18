@@ -1,7 +1,7 @@
 <template>
-  <footer class="text-xs p-4 mt-2">
+  <footer class="text-xs p-4">
     <Wrapper>
-      © 2019 Charlie Detviler.
+      © 2019 Charlie Detviler
     </Wrapper>
   </footer>
 </template>

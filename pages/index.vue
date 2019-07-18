@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style>
-
+  html {
+    font-family: 'lato', 'sans-serif';
+  }
 </style>
 
