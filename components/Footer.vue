@@ -1,8 +1,20 @@
 <template>
   <footer class="text-xs p-4 mt-2">
-    © 2019 Charlie Detviler.
+    <Wrapper>
+      © 2019 Charlie Detviler.
+    </Wrapper>
   </footer>
 </template>
+
+<script>
+import Wrapper from '~/components/Wrapper.vue'
+
+export default {
+  components: {
+    Wrapper
+  }
+}
+</script>
 
 <style>
   footer {

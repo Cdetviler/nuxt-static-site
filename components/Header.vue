@@ -38,8 +38,6 @@
     z-index: 1000;
     position: fixed;
     width: 100%;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,.22);
-    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.22);
   }
 
   .logo-area > a {
@@ -75,13 +73,13 @@
   }
 
   .header-link > a:hover:after,
-  .header-link > .nuxt-link-active:after {
+  .header-link > .nuxt-link-exact-active:after {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 
-  .header-link > .nuxt-link-active {
+  .header-link > .nuxt-link-exact-active {
     color: theme('colors.accent');
   }
 </style>

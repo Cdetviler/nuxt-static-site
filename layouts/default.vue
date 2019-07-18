@@ -1,8 +1,6 @@
 <template>
 <div>
-  <header>
-    Charlie Detviler
-  </header>
+  <Header />
   <main class="min-h-screen">
     <nuxt/>
   </main>
@@ -12,16 +10,20 @@
 
 <script>
 import Footer from '~/components/Footer.vue'
+import Header from '~/components/Header.vue'
 
 export default {
   components: {
-    Footer
+    Footer,
+    Header
   }
 }
 </script>
 
 
-<style>
-
+<style scoped>
+  main {
+    padding-top: 75px;
+  }
 </style>
 
