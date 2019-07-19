@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   /*
   ** Headers of the page
@@ -41,6 +43,11 @@ module.exports = {
   ],
   modules: [
     '@nuxtjs/tailwindcss',
-  ]
+  ],
+  postcss: {
+    plugins: {
+      tailwindcss: path.resolve(__dirname, './tailwind.config.js')
+    }
+  }
 }
 
