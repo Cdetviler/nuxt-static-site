@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap' }
     ]
   },
   /*
@@ -37,12 +38,6 @@ module.exports = {
   },
   devModules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-webfontloader',
-  ],
-   webfontloader: {
-    google: {
-      families: ['Lato:100,400,700'] //Loads Lato font with weights 400 and 700
-    }
-  },
+  ]
 }
 

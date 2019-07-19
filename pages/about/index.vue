@@ -19,7 +19,7 @@
           :classes="['mt-3']"
           color="accent"
         >
-          I build functional and beautiful user interfaces.
+          I build functional and beautiful user interfaces
         </CardText>
         <CardText 
           fontSize="md"
