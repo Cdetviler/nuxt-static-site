@@ -1,5 +1,5 @@
 <template>
-  <div :class="[classes, computedAlignment, computedColor, computedTextSize]">
+  <div :class="[computedAlignment, computedColor, computedTextSize]">
     <slot></slot>
   </div>
 </template>

@@ -1,5 +1,6 @@
 <template>
   <div
+    class="font-light"
     :class="[classes, computedAlignment, computedColor, computedTextSize]"
   >
     <slot></slot>
