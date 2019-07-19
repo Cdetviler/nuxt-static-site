@@ -4,6 +4,7 @@
       <Card width="xl">
         <CardText 
           fontSize="5xl"
+          alignment="center"
           :classes="['mb-3', 'tracking-widest', 'uppercase', 'font-light']"
         >
           About Charlie

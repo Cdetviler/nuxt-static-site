@@ -38,6 +38,9 @@ module.exports = {
   },
   devModules: [
     '@nuxtjs/tailwindcss',
+  ],
+  modules: [
+    '@nuxtjs/tailwindcss',
   ]
 }
 
