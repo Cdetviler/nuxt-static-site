@@ -26,6 +26,7 @@ export default {
 
   main {
     background-image: url("/daniel-mccullough-1920x1080.jpg");
+    background-size: cover;
   }
 
   .bg-overlay {
