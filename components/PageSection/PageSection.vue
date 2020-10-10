@@ -12,8 +12,10 @@
   export default {
     name: 'PageSection',
     props: {
-      inverted: Boolean,
-      default: false
+      inverted: {
+        type: Boolean,
+        default: false
+      }
     },
     components: {
       Wrapper

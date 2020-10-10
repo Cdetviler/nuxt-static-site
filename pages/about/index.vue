@@ -43,14 +43,12 @@
 </template>
 
 <script>
-  import Wrapper from '~/components/Wrapper.vue';
   import { PageSection, SectionHeader } from '~/components/PageSection';
   import { Card, CardImage, CardText } from '~/components/Card';
   import ExperienceList from '~/components/ExperienceList.vue';
 
   export default {
     components: {
-      Wrapper,
       Card,
       CardImage,
       CardText,
